@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav a,.right-nav a{
+    margin: 8px 8px;
+    text-decoration: none;
+    color: #6F6F6F;
+}
+
+.left-nav,.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.left-nav a:hover,.right-nav a:hover{
+    text-decoration: underline;
+    color:rgb(80, 75, 75);
+}
+
+.menu-icon{
+    width: 20px;
+    height: 20px;
+    margin: 8px 8px;
+}
+
+.profile-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 8px 20px 8px 8px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-logo{
+    width: 300px;
+    height: 200px;
+    margin-top: 3.5em;
+}
+
+.search-bar{
+    width: 470px;
+    height: 32px;
+    border-radius: 20px;
+    border:1px solid #DFE1E5;
+    background-color: transparent;
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+.serach-icon{
+    height:18px;
+    width:18px;
+    position: relative;
+    bottom:1.6em;
+    right: 16em;
+}
+
+.voice-search-icon{
+    height:20px;
+    width:15px;
+    position: relative;
+    bottom: 3em;
+    left: 16em;
+    border-radius: 2px;
+}
+
+.button{
+    text-align: center;
+}
+
+.google-search-button,.google-lucky-button{
+    margin: 0px 10px 10px 5px ;
+    padding: 8px;
+    border:1px solid #F8F9FA;
+    background-color: #F8F9FA;
+    border-radius: 3px;
+    width: 150px;
+    border-width: 1px;
+}
+
+.google-search-button:hover,.google-lucky-button:hover{
+    border-color: grey;
+}
+
+.google-translate{
+    text-align: center;
+    margin: 5px ;
+    font-weight: 500;
+    
+}
+
+.language{
+    text-decoration: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.first-foot{
+    border: 1px solid #DADCE0;
+    padding: 10px 10px 10px 20px;
+    background-color: #F2F2F2;
+    color: #6F6F6F;
+    font-weight: lighter;
+}
+
+.second-foot{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #DADCE0;
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+.left-side-content a,.right-side-content a{
+    margin: 10px 10px 5px 10px;
+    text-decoration: none;
+    color: #6F6F6F;
+}
+
+.left-side-content a:hover,.right-side-content a:hover{
+    color:rgb(80, 75, 75);
+    text-decoration: underline;
+}
+
